@@ -105,4 +105,13 @@ public:
 int main() {
 	Queues q;
 	char ch;
+
+	while (true) {
+		try {
+			cout << "MENU" << endl;
+			cout << "1. Implement insert operation" << endl;
+			cout << "2. Implement delete operation" << endl;
+			cout << "3. Display values" << endl;
+		}
+	}
 }
